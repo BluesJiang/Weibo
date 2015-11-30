@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		6F5581151C0C1F510073B2E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5581141C0C1F510073B2E5 /* main.m */; };
 		6F5581181C0C1F510073B2E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5581171C0C1F510073B2E5 /* AppDelegate.m */; };
-		6F55811B1C0C1F510073B2E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F55811A1C0C1F510073B2E5 /* ViewController.m */; };
 		6F55811E1C0C1F510073B2E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F55811C1C0C1F510073B2E5 /* Main.storyboard */; };
 		6F5581211C0C1F510073B2E5 /* Weibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F55811F1C0C1F510073B2E5 /* Weibo.xcdatamodeld */; };
 		6F5581231C0C1F510073B2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5581221C0C1F510073B2E5 /* Assets.xcassets */; };
-		6F5581261C0C1F510073B2E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5581241C0C1F510073B2E5 /* LaunchScreen.storyboard */; };
 		6F5581311C0C1F510073B2E5 /* WeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5581301C0C1F510073B2E5 /* WeiboTests.m */; };
 		6F55813C1C0C1F510073B2E5 /* WeiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F55813B1C0C1F510073B2E5 /* WeiboUITests.m */; };
+		6F55814B1C0C2D8B0073B2E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5581491C0C2D8B0073B2E5 /* LaunchScreen.storyboard */; };
+		6FBA98851C0C5F3200908CEF /* HomeListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA98841C0C5F3200908CEF /* HomeListView.m */; };
+		6FBA98881C0C60C400908CEF /* WeiboDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA98871C0C60C400908CEF /* WeiboDataModel.m */; };
+		6FBA988D1C0C858400908CEF /* HomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA988C1C0C858400908CEF /* HomeListCell.m */; };
+		6FD0A20A1C0C8A8F0062522C /* WeiboDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD0A2091C0C8A8F0062522C /* WeiboDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +43,9 @@
 		6F5581141C0C1F510073B2E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F5581161C0C1F510073B2E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F5581171C0C1F510073B2E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F5581191C0C1F510073B2E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F55811A1C0C1F510073B2E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F55811D1C0C1F510073B2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F5581201C0C1F510073B2E5 /* Weibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weibo.xcdatamodel; sourceTree = "<group>"; };
 		6F5581221C0C1F510073B2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6F5581251C0C1F510073B2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F5581271C0C1F510073B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F55812C1C0C1F510073B2E5 /* WeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5581301C0C1F510073B2E5 /* WeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboTests.m; sourceTree = "<group>"; };
@@ -53,6 +53,15 @@
 		6F5581371C0C1F510073B2E5 /* WeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F55813B1C0C1F510073B2E5 /* WeiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboUITests.m; sourceTree = "<group>"; };
 		6F55813D1C0C1F510073B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F55814A1C0C2D8B0073B2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FBA98831C0C5F3200908CEF /* HomeListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListView.h; sourceTree = "<group>"; };
+		6FBA98841C0C5F3200908CEF /* HomeListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListView.m; sourceTree = "<group>"; };
+		6FBA98861C0C60C400908CEF /* WeiboDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboDataModel.h; sourceTree = "<group>"; };
+		6FBA98871C0C60C400908CEF /* WeiboDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboDataModel.m; sourceTree = "<group>"; };
+		6FBA988B1C0C858400908CEF /* HomeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListCell.h; sourceTree = "<group>"; };
+		6FBA988C1C0C858400908CEF /* HomeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListCell.m; sourceTree = "<group>"; };
+		6FD0A2081C0C8A8E0062522C /* WeiboDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboDatabase.h; sourceTree = "<group>"; };
+		6FD0A2091C0C8A8F0062522C /* WeiboDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboDatabase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +114,11 @@
 			children = (
 				6F5581161C0C1F510073B2E5 /* AppDelegate.h */,
 				6F5581171C0C1F510073B2E5 /* AppDelegate.m */,
-				6F5581191C0C1F510073B2E5 /* ViewController.h */,
-				6F55811A1C0C1F510073B2E5 /* ViewController.m */,
+				6FBA988A1C0C60E800908CEF /* ShowOnTheFront */,
+				6FBA98891C0C60D300908CEF /* DataModel */,
 				6F55811C1C0C1F510073B2E5 /* Main.storyboard */,
 				6F5581221C0C1F510073B2E5 /* Assets.xcassets */,
-				6F5581241C0C1F510073B2E5 /* LaunchScreen.storyboard */,
+				6F5581491C0C2D8B0073B2E5 /* LaunchScreen.storyboard */,
 				6F5581271C0C1F510073B2E5 /* Info.plist */,
 				6F55811F1C0C1F510073B2E5 /* Weibo.xcdatamodeld */,
 				6F5581131C0C1F510073B2E5 /* Supporting Files */,
@@ -141,6 +150,28 @@
 				6F55813D1C0C1F510073B2E5 /* Info.plist */,
 			);
 			path = WeiboUITests;
+			sourceTree = "<group>";
+		};
+		6FBA98891C0C60D300908CEF /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA98861C0C60C400908CEF /* WeiboDataModel.h */,
+				6FBA98871C0C60C400908CEF /* WeiboDataModel.m */,
+				6FD0A2081C0C8A8E0062522C /* WeiboDatabase.h */,
+				6FD0A2091C0C8A8F0062522C /* WeiboDatabase.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		6FBA988A1C0C60E800908CEF /* ShowOnTheFront */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA98831C0C5F3200908CEF /* HomeListView.h */,
+				6FBA98841C0C5F3200908CEF /* HomeListView.m */,
+				6FBA988B1C0C858400908CEF /* HomeListCell.h */,
+				6FBA988C1C0C858400908CEF /* HomeListCell.m */,
+			);
+			name = ShowOnTheFront;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5581261C0C1F510073B2E5 /* LaunchScreen.storyboard in Resources */,
+				6F55814B1C0C2D8B0073B2E5 /* LaunchScreen.storyboard in Resources */,
 				6F5581231C0C1F510073B2E5 /* Assets.xcassets in Resources */,
 				6F55811E1C0C1F510073B2E5 /* Main.storyboard in Resources */,
 			);
@@ -277,7 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F5581211C0C1F510073B2E5 /* Weibo.xcdatamodeld in Sources */,
-				6F55811B1C0C1F510073B2E5 /* ViewController.m in Sources */,
+				6FBA98851C0C5F3200908CEF /* HomeListView.m in Sources */,
+				6FBA988D1C0C858400908CEF /* HomeListCell.m in Sources */,
+				6FBA98881C0C60C400908CEF /* WeiboDataModel.m in Sources */,
+				6FD0A20A1C0C8A8F0062522C /* WeiboDatabase.m in Sources */,
 				6F5581181C0C1F510073B2E5 /* AppDelegate.m in Sources */,
 				6F5581151C0C1F510073B2E5 /* main.m in Sources */,
 			);
@@ -323,10 +357,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6F5581241C0C1F510073B2E5 /* LaunchScreen.storyboard */ = {
+		6F5581491C0C2D8B0073B2E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6F5581251C0C1F510073B2E5 /* Base */,
+				6F55814A1C0C2D8B0073B2E5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -505,6 +539,7 @@
 				6F5581421C0C1F510073B2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F5581431C0C1F510073B2E5 /* Build configuration list for PBXNativeTarget "WeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +548,7 @@
 				6F5581451C0C1F510073B2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F5581461C0C1F510073B2E5 /* Build configuration list for PBXNativeTarget "WeiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +557,7 @@
 				6F5581481C0C1F510073B2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

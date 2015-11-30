@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeListView.h
 //  Weibo
 //
 //  Created by BluesJiang on 30/11/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeListView : UITableViewController
 
 @end
-
